@@ -1,0 +1,18 @@
+.container{
+  display: flex;
+}
+
+.image-container{
+  width: 25%;
+}
+.image-container img{
+  width: 100%;
+}
+
+.second-container{
+  width: 50%;
+}
+
+.award{
+  display: flex;
+}

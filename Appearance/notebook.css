@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.frise{
+  width: 30%;
+  z-index: -3;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.years{
+  position: relative;
+  z-index: -3
+}
+
+.y_2022{
+  position: absolute;
+  bottom: 0;
+  color: black;
+}
+
+
+.main{
+  position: relative;
+  z-index: -2;
+}
+
+.underline-sub-part{
+  background-color: #C2CF26;
+  height: 0.1em;
+  width: 100%;
+}

@@ -1,0 +1,102 @@
+body {
+  margin: 0em;
+}
+.up{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.up a{
+  vertical-align: baseline;
+  text-decoration: none;
+  color: #004D40;
+  font: 4.8em "Fira Sans", sans-serif;
+}
+
+.up img{
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  width: 1em;
+}
+
+#div_im_home{
+  text-align: center;
+  background-color: #E2F0E8;
+}
+
+#div_im_home img {
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+}
+
+#sticky{
+  position: sticky;
+  top: 0;
+}
+#main_menu {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #C2CF26;
+}
+
+.links_menu {
+  display: block;
+  padding: 1em 2em;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font: bold 1.3em "Fira Sans", sans-serif;
+}
+
+.links_menu:hover{
+  background-color: #929B1D;
+    color: white;
+}
+
+#current{
+  box-shadow: inset 1px 1px 10px black;
+}
+
+.dropdown_content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+.links_submenu{
+  display: block;
+  padding: 1em 1.5em;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  background-color: #929B1D;
+  font: 1em "Fira Sans", sans-serif;
+}
+
+.links_submenu:hover{
+  background-color: #616813;
+  color: white;
+}
+
+.underline{
+  background-color: #C2CF26;
+  height: 0.5em;
+  width: 90%;
+  margin: 0px 5%;
+}
+
+footer img{
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+.sommaire{
+  width: 100%;
+}
+
+#sticky-summary{
+  position: sticky;
+  top: 4em;
+  z-index: -1;
+}
+
+.border{
+  width: 2px;
+  background-color: #C2CF26;
+  margin: 1% 5px;
+}
+
+.main{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.sub-parts{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-part{
+  width: 46%;
+}
+.underline-sub-part{
+  background-color: #C2CF26;
+  height: 0.1em;
+  width: 100%;
+}
